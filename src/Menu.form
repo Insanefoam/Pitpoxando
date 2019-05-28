@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Menu">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="29" width="610" height="235"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="a2ad0" class="javax.swing.JRadioButton" binding="startAsSecondPlayerRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="20"/>
+          <text value="Start as second player"/>
+        </properties>
+      </component>
+      <component id="5fb4f" class="javax.swing.JTextField" binding="chooseAnyOptionTextField" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font name="Consolas" size="48"/>
+          <horizontalAlignment value="0"/>
+          <text value="Choose any option"/>
+        </properties>
+      </component>
+      <component id="7a900" class="javax.swing.JRadioButton" binding="startTestRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="20"/>
+          <text value="Start test"/>
+        </properties>
+      </component>
+      <component id="a6746" class="javax.swing.JRadioButton" binding="startAsServerRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="20"/>
+          <text value="Start as server"/>
+        </properties>
+      </component>
+      <component id="d3c58" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="20"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="6a855" class="javax.swing.JTextField" binding="enterServerIpRightTextField" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <font name="Consolas" size="20"/>
+          <horizontalAlignment value="0"/>
+          <text value="Enter server ip right here"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
